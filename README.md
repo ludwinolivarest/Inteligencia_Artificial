@@ -3,3 +3,4 @@ Este es el repositorio donde se subirán los trabajos para el curso de Inteligen
 # Integrantes
 - Ludwin Olivares Torres
 - Fabricio Baca Portugal
+- Joaquin Luque Rodriguez
