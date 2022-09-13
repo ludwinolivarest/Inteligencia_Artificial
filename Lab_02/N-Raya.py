@@ -19,14 +19,15 @@ class TicTacToe:
         for i in range(self.size):
             print("  ",self.board[0+(i*3)]," | ",self.board[1+(i*3)]," | ",self.board[2+(i*3)])
             print("")
-        """
+        
         print("")
         for i in range(self.size):
-            print("  ", self.board[i*self.size], end =" " )
-            for j in range (i+1,i+self.size):
-                print(" | ",self.board[j],end = "")
-            print("\n")
-        """
+            acum = ""
+            for j in range (self.size):
+                #print(j)
+                acum =acum + self.board[j+(i*(self.size))] + " | "
+            print(acum)
+            #print("\n")
             
     def is_board_filled(self,state):
         return not "-" in state
