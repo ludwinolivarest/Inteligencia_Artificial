@@ -8,7 +8,7 @@ import os
 class TicTacToe:
     def __init__(self):
         self.primero = input("elige quien empieza, jugador(O) o maquina(X): ")
-        self.size = int(input("elige el tamanio: "))
+        self.size = int(input("poner 3"))
         self.humanPlayer = "O"
         self.botPlayer = "X"
         self.board = ['-' for _ in range(self.size*self.size)] #creamos tablero
