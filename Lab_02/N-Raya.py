@@ -89,7 +89,8 @@ class TicTacToe:
         human = humanPlayer(self.humanPlayer)
         
         if self.primero == "X":
-            self.board[random.randint(0, 9)]= "X"
+            self.board[random.randint(0,self.size*self.size)]= "X"
+            self.show_board()
 
             
                     
